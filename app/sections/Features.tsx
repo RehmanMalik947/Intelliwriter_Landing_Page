@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { JSX } from "react";
 import Image from "next/image";
 
 const Container = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
@@ -12,7 +12,7 @@ const Container = ({ children, className = "" }: { children: React.ReactNode; cl
 function GradientTitle({ title, highlight }: { title: string; highlight?: string[] }) {
   if (!highlight || highlight.length === 0) return <>{title}</>;
 
-  let parts: JSX.Element[] = [];
+  const parts: JSX.Element[] = [];
   let remaining = title;
 
   highlight.forEach((word) => {
