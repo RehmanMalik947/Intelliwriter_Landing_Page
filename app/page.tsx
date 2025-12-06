@@ -7,7 +7,7 @@ import Integrations from "./sections/Integrations";
 import ToolsGrid from "./sections/ToolsGrid";
 import Pricing from "./sections/Pricing";
 import FAQ from "./sections/FAQ";
-import Footer from "./sections/Footer";
+// import Footer from "./sections/Footer";
 // import CTA from "./sections/CTA"; // Optional: If you have a separate bottom CTA component
 
 export default function Home() {
